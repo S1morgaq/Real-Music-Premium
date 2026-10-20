@@ -1,22 +1,96 @@
-# Advanced Discord Music Bot
+# ⚡ Realyueloin_
 
-Discord.js v14, TypeScript, Kazagumo/Shoukaku, Lavalink v4, MongoDB ve Redis ile hazirlanmis public sunucu odakli muzik botu.
+<div align="center">
 
-## Ozellikler
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090B,50:6D28D9,100:A855F7&height=230&section=header&text=REAlYUELOIN_&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Developer%20%7C%20Bot%20Engineer%20%7C%20Creative%20Technologist&descAlignY=58&descSize=15" width="100%" alt="Realyueloin_ Banner"/>
 
-- Slash command tabanli Discord.js v14 mimarisi
-- Lavalink + Kazagumo/Shoukaku player sistemi
-- YouTube, YouTube Music, SoundCloud ve credential gerektirmeyen Spotify metadata cozme destegi
-- Queue, loop, shuffle, seek, previous, replay, autoplay ve 24/7
-- Bassboost, equalizer tabanli filtreler, nightcore, vaporwave, speed, pitch
-- Lyrics, playlist, premium ve sunucu ayarlari
-- Canvas now playing karti, progress bar, buton kontrolu ve select menu filtreleri
-- MongoDB kalici veri, Redis cache hazirligi, sharding icin `shards: "auto"`
-- Docker Compose ve PM2 production calistirma destegi
+### Building digital experiences, one project at a time.
 
-## Kurulum
+**Welcome to my GitHub profile!** 👋
+
+I'm **Realyueloin_**, a developer passionate about software development, Discord bots, web technologies and automation systems. I enjoy building modern digital products with clean architecture, powerful functionality and premium user experiences.
+
+[![GitHub](https://img.shields.io/badge/GitHub-Realyueloin__-181717?style=for-the-badge&logo=github)](https://github.com/Realyueloin_)
+[![Discord](https://img.shields.io/badge/Discord-Connect-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1017736516245655614)
+[![Profile Views](https://komarev.com/ghpvc/?username=S1morgaq&style=for-the-badge&color=8B5CF6)](https://github.com/S1morgaq)
+
+</div>
+
+---
+
+## 👨‍💻 About Me
+
+- 💻 **Developer:** `Realyueloin_`
+- 🎯 **Interests:** Software Development, Discord Bots, Web Development and Automation
+- ⚙️ **Focus:** Backend systems, clean architecture and scalable applications
+- 🎨 **Design Philosophy:** Minimal, modern and premium UI/UX
+- 🚀 **Goal:** Turning creative ideas into powerful digital products
+- 🌐 **GitHub:** [github.com/Realyueloin_](https://github.com/Realyueloin_)
+
+I enjoy exploring new technologies, solving technical challenges and continuously improving my development skills. My focus is on creating practical, maintainable and high-quality projects that combine performance, functionality and design.
+
+## 🚀 Featured Project
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:18181B,100:6D28D9&height=100&text=ADVANCED%20DISCORD%20MUSIC%20BOT&fontSize=23&fontColor=FFFFFF" width="100%" alt="Advanced Discord Music Bot"/>
+
+### 🎵 Advanced Discord Music Bot
+
+**A powerful, scalable and feature-rich music experience for Discord.**
+
+Built with Discord.js v14, TypeScript, Kazagumo, Shoukaku, Lavalink v4, MongoDB and Redis, this project is designed for public Discord servers with an emphasis on modular architecture, interactive controls and production deployment.
+
+[![Discord.js](https://img.shields.io/badge/Discord.js-v14-5865F2?style=flat-square&logo=discord)](https://discord.js.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Lavalink](https://img.shields.io/badge/Lavalink-v4-7C3AED?style=flat-square)](https://github.com/lavalink-devs/Lavalink)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
+[![Redis](https://img.shields.io/badge/Redis-Cache-DC382D?style=flat-square&logo=redis)](https://redis.io/)
+
+</div>
+
+### ✨ Key Features
+
+- 🎧 **Multi-Source Playback:** YouTube, YouTube Music, SoundCloud and Spotify metadata resolution with supported audio-source fallback.
+- 📜 **Advanced Queue System:** Queue management, shuffle, loop, seek, previous, replay and autoplay.
+- 🎚️ **Audio Filters:** Bassboost, equalizer-based filters, nightcore, vaporwave, speed and pitch controls.
+- 🎨 **Interactive Music Interface:** Canvas-based now-playing cards, progress bars, buttons and select menu controls.
+- 📝 **Lyrics & Playlists:** Lyrics lookup and playlist management.
+- ⚙️ **Server Settings:** Guild configuration and premium feature infrastructure.
+- 🗄️ **Persistent Storage:** MongoDB integration for persistent data.
+- ⚡ **Redis Integration:** Cache infrastructure for performance-oriented workloads.
+- 🌐 **Scalable Deployment:** Docker Compose, PM2 and automatic sharding configuration.
+- 🔌 **Dashboard-Ready Architecture:** Separated services designed to support future dashboard integration.
+
+### 🛠️ Technology Stack
+
+| Category | Technologies |
+|---|---|
+| Languages | TypeScript, JavaScript |
+| Discord Framework | Discord.js v14 |
+| Music System | Kazagumo, Shoukaku, Lavalink v4 |
+| Database | MongoDB |
+| Cache | Redis |
+| Rendering | Canvas |
+| Deployment | Docker Compose, PM2 |
+| Configuration | Environment Variables, YAML |
+| Version Control | Git, GitHub |
+
+### 📦 Installation
+
+**Requirements**
+
+- Node.js and npm
+- Discord application and bot token
+- MongoDB connection
+- Lavalink v4 server
+- Redis if using the configured cache integration
+
+**Linux / macOS**
 
 ```bash
+git clone YOUR_REPOSITORY_URL
+cd YOUR_PROJECT_FOLDER
 npm install
 cp .env.example .env
 npm run deploy
@@ -24,9 +98,11 @@ npm run build
 npm start
 ```
 
-Windows PowerShell:
+**Windows PowerShell**
 
 ```powershell
+git clone YOUR_REPOSITORY_URL
+cd YOUR_PROJECT_FOLDER
 Copy-Item .env.example .env
 npm install
 npm run deploy
@@ -34,38 +110,19 @@ npm run build
 npm start
 ```
 
-Prefix komutlari icin Discord Developer Portal > Bot sayfasinda **Message Content Intent** aktif olmalidir. Bot artik `DISCORD_GUILD_ID` istemez; hangi sunucuya davet edildiyse orada `r!play`, `r!skip`, `r!queue` gibi prefix komutlariyla calisir.
+Before starting the bot, configure the required values in `.env`, including your Discord token, database connection and Lavalink credentials.
 
-Slash komut kullanmak istersen `npm run deploy` global deploy yapar. Test icin tek sunucuya deploy etmek istersen `.env` icine opsiyonel olarak `DISCORD_GUILD_ID=SUNUCU_ID` ekleyebilirsin.
+Never commit your real `.env` file, bot token, database credentials or other secrets to GitHub.
 
-## Lavalink
+### 🐳 Docker Deployment
 
-Docker ile her sey birlikte:
+If the repository includes the provided Docker Compose configuration:
 
 ```bash
 docker compose up -d --build
 ```
 
-Manuel Lavalink icin `lavalink/application.yml` dosyasini Lavalink jar dosyanizin yanina koyun ve:
-
-```bash
-java -jar Lavalink.jar
-```
-
-`.env` icindeki `LAVALINK_AUTH` degeri ile `application.yml` icindeki `lavalink.server.password` ayni olmalidir.
-
-`lavalink/application.yml` dosyasi Lavasrc ve YouTube pluginlerini Maven uzerinden otomatik indirecek sekilde ayarlandi. Ekstra Spotify client id/secret, Apple token veya Deezer ARL girmen gerekmez.
-
-Credential gerektirmeyen modda Spotify linkleri Lavasrc tarafinda anonymous/public token ile metadata olarak cozulur; ses, hizli fallback sirasi ile `ytmsearch`, `ytsearch`, `scsearch` uzerinden oynatilir. Apple Music ve Deezer direkt kaynaklari kapali gelir, cunku bu kaynaklarda stabil direkt stream icin servis credential/cookie gerekir. Kullanici `r!play sarki adi` yazdiginda sistem YouTube Music/YouTube/SoundCloud uzerinden hizli calar.
-
-Performans icin:
-
-- Lavalink'i botla ayni makinede veya ayni region'da calistir.
-- Redis ve MongoDB'yi local network'te tut.
-- Spotify playlist/album limitleri config'te sinirli tutuldu; buyuk public botlarda ani bellek yukunu azaltir.
-- `providers` sirasinda YouTube Music once gelir; bu, credential gerektirmeyen modda en hizli ve stabil sonucu verir.
-
-## PM2
+### ⚙️ PM2 Production
 
 ```bash
 npm run build
@@ -73,49 +130,103 @@ pm2 start ecosystem.config.cjs
 pm2 save
 ```
 
-## Komutlar
+### 🎼 Command Overview
 
-Muzik: `/play`, `/stop`, `/skip`, `/previous`, `/pause`, `/resume`, `/queue`, `/nowplaying`, `/volume`, `/shuffle`, `/loop`, `/seek`, `/remove`, `/autoplay`, `/replay`, `/lyrics`, `/playlist`, `/bassboost`, `/filter`, `/nightcore`, `/vaporwave`, `/speed`, `/pitch`, `/247`, `/join`, `/leave`
+| Category | Commands |
+|---|---|
+| Playback | `/play`, `/stop`, `/skip`, `/pause`, `/resume` |
+| Queue | `/queue`, `/shuffle`, `/remove`, `/previous` |
+| Player | `/nowplaying`, `/volume`, `/seek`, `/replay` |
+| Audio Filters | `/bassboost`, `/filter`, `/nightcore`, `/vaporwave` |
+| Advanced Audio | `/speed`, `/pitch`, `/autoplay`, `/247` |
+| Music Content | `/lyrics`, `/playlist` |
+| Server Management | `/settings`, `/premium` |
 
-Yonetim: `/settings`, `/premium`
+**Prefix commands** are also supported by the project configuration, including `r!play`, `r!skip`, `r!queue`, `r!volume` and other corresponding commands.
 
-Prefix karsiliklari:
+### 🏗️ Architecture Overview
 
 ```text
-r!play <sarki veya url>
-r!stop
-r!skip
-r!previous
-r!pause
-r!resume
-r!queue
-r!nowplaying
-r!volume 80
-r!shuffle
-r!loop none|track|queue
-r!seek 1m30s
-r!remove 3
-r!autoplay on|off
-r!replay
-r!lyrics <sarki>
-r!playlist create|add-current|list|load <isim>
-r!bassboost 1-5
-r!filter clear|bassboost|nightcore|vaporwave|karaoke|tremolo|vibrato
-r!nightcore
-r!vaporwave
-r!speed 1.2
-r!pitch 1.2
-r!247 on|off
-r!join
-r!leave
+                 DISCORD USERS
+                       |
+                       v
+                 Discord.js v14
+                       |
+                       v
+              Commands & Event System
+                       |
+                       v
+               Kazagumo / Shoukaku
+                       |
+                       v
+                  Lavalink v4
+                       |
+              +--------+--------+
+              |                 |
+              v                 v
+           MongoDB            Redis
+        Persistent Data      Cache Layer
 ```
 
-## Dashboard Baglantisi
+### 🎯 Development Goals
 
-Dashboard icin servisler ayrildi:
+- Improve playback reliability and error handling.
+- Maintain modular and readable code.
+- Optimize queue and playlist processing.
+- Support scalable deployments for public Discord servers.
+- Keep the architecture ready for future dashboard integration.
 
-- Mongo modelleri: `GuildSettings`, `Playlist`, `Premium`
-- Player runtime: `client.kazagumo.players`
-- Redis: `src/database/redis.ts`
+> **Note:** Spotify links are resolved as metadata and matched with supported audio sources. Playback availability depends on the configured Lavalink plugins, source availability and service conditions. Feature availability may vary by configuration.
 
-Bir Express/Fastify dashboard eklerken bot process'iyle ayni Mongo/Redis'i kullanip guild ayarlarini dogrudan okuyabilirsiniz. Runtime player kontrolleri icin dashboard'u bot process'ine IPC, Redis pub/sub veya HTTP internal API ile baglamak en stabil yoldur.
+---
+
+## 🧰 Technologies & Tools
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=js,ts,nodejs,html,css,php,python,java,cs,cpp,react,express,mongodb,redis,mysql,git,github,docker,linux,vscode&perline=10" alt="Technologies and Tools"/>
+
+</div>
+
+I am interested in exploring different programming languages, development tools and software architectures. The technologies displayed here represent areas of interest and should be updated as my projects evolve.
+
+## 📊 GitHub Statistics
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Realyueloin_&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Statistics"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Realyueloin_&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages"/>
+
+<img width="95%" src="https://streak-stats.demolab.com?user=Realyueloin_&theme=tokyonight&hide_border=true" alt="GitHub Contribution Streak"/>
+
+</div>
+
+## 🎯 Current Goals
+
+- ⚡ Build advanced and scalable Discord bots.
+- 🏗️ Improve software architecture and code quality.
+- 🌐 Develop modern web applications and management dashboards.
+- 🔐 Build secure and reliable production systems.
+- 🎨 Create polished, intuitive and responsive interfaces.
+- 🚀 Contribute to open-source projects and developer communities.
+
+## 🤝 Let's Connect
+
+<div align="center">
+
+### Have an idea? Let's build something great.
+
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/Realyueloin_)
+
+[![Discord](https://img.shields.io/badge/Discord-Realyueloin__-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1017736516245655614)
+
+**Discord User ID**
+
+`1017736516245655614`
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,50:6D28D9,100:09090B&height=120&section=footer" width="100%" alt="Footer Banner"/>
+
+*Designed with curiosity. Built with code. Improved with every project.*
+
+</div>
