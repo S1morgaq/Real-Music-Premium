@@ -1,0 +1,31 @@
+Ardmetra Music - Commercial / Premium Use Terms
+
+Copyright (c) 2026 S1morg. All rights reserved.
+
+These terms apply on top of the main LICENSE file and cover commercial use,
+premium features and redistribution of Ardmetra Music.
+
+1. COMMERCIAL USE
+   Commercial use (selling access, premium codes, subscriptions or paid
+   features based on the Software) is allowed only with a written agreement
+   signed by S1morg.
+
+2. PREMIUM FEATURES AND CODES
+   Premium systems, premium codes and premium audio assets are the
+   exclusive property of S1morg and may not be generated, resold or
+   bypassed without permission.
+
+3. BRANDING
+   The names "Ardmetra Music" and "S1morg", logos and ASCII banners are
+   trademarks/branding of S1morg. You may not use them to promote your own
+   products or imply endorsement.
+
+4. REDISTRIBUTION
+   Forks, copies or modified versions may not be published or sold under
+   any name without written permission from S1morg.
+
+5. VIOLATIONS
+   Unauthorized commercial use ends all granted rights and may lead to legal
+   action by S1morg.
+
+License owner: S1morg

@@ -1,0 +1,33 @@
+Ardmetra Music - Ozel Yazilim Lisansi (Turkce)
+
+Telif Hakki (c) 2026 S1morg. Tum haklari saklidir.
+
+1. MULKIYET
+   Ardmetra Music (bundan sonra "Yazilim"); tum kaynak kodu, derlenmis
+   ciktilari, varliklari, ses dosyalari, dokumantasyonu ve yapilandirma
+   dosyalari dahil, tamamen S1morg'a ("Lisans Sahibi") aittir.
+
+2. KISITLAMALAR
+   Lisans Sahibi'nin onceden yazili izni olmadan:
+   a) Yazilim veya herhangi bir bolumu kopyalanamaz, degistirilemez,
+      birlestirilemez, yayimlanamaz, dagitilamaz, alt lisanslanamaz ve
+      satilamaz;
+   b) Yazilima tersine muhendislik yapilamaz, kaynak koda cevrilemez
+      (yasanin acikca izin verdigi haller haric);
+   c) Telif hakki, mulkiyet veya lisans bildirimleri kaldirilamaz ya da
+      degistirilemez;
+   d) Yazilim ucuncu kisilere hizmet olarak sunulamaz.
+
+3. UCUNCU TARAF BILESENLER
+   Yazilim, kendi lisanslarina tabi acik kaynak kutuphaneler kullanir. Bu
+   lisans, o kutuphanelerin lisanslarini degistirmez.
+
+4. GARANTI VERILMEZ
+   YAZILIM "OLDUGU GIBI" SUNULUR; ACIK VEYA ZIMNI HICBIR GARANTI VERILMEZ.
+   LISANS SAHIBI, YAZILIMIN KULLANIMINDAN DOGAN HICBIR ZARARDAN SORUMLU
+   TUTULAMAZ.
+
+5. FESIH
+   Bu lisansin ihlali, haklarinizin otomatik olarak sona ermesine yol acar.
+
+Iletisim: S1morg
